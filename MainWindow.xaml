@@ -7,7 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="L" HorizontalAlignment="Left" Margin="12,3,0,0" VerticalAlignment="Top" Height="29" Width="77"/>
+        <Label Content="Srednji kurs" HorizontalAlignment="Left" Margin="9,3,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="keur" HorizontalAlignment="Left" Margin="10,25,0,0" TextWrapping="Wrap" Text="eur" VerticalAlignment="Top"/>
+        <TextBlock x:Name="kusd" HorizontalAlignment="Left" Margin="10,40,0,0" TextWrapping="Wrap" Text="usd" VerticalAlignment="Top"/>
+        <TextBlock x:Name="kchf" HorizontalAlignment="Left" Margin="10,55,0,0" TextWrapping="Wrap" Text="chf" VerticalAlignment="Top"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top" Width="38" Height="15" FontSize="9"/>
+        <TextBox x:Name="Dug"  HorizontalAlignment="Left" Height="23" Margin="341,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="Yellow" TextChanged="Dug_TextChanged"/>
+        <TextBox x:Name="sudskataksa" HorizontalAlignment="Left" IsEnabled="False" Height="23" Margin="343,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button  x:Name="izracunaj" Click="Izracunaj_Click"  Content="Button" HorizontalAlignment="Left" IsDefault="True"   Margin="298,218,0,0" VerticalAlignment="Top" Width="158" Height="72"/>
+        <ComboBox HorizontalAlignment="Left"    Margin="183,59,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Osnovni sud" IsSelected="True"  x:Name="Osnovni" Selected="Izracunaj_Click"/>
+            <ComboBoxItem Content="Privredni sud"  x:Name="Privredni" Selected="Izracunaj_Click"/>
+        </ComboBox>
+
+        <ComboBox x:Name="Cvaluta"  HorizontalAlignment="Left"    Margin="179,118,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Cvaluta_SelectionChanged">
+            <ComboBoxItem Content="RSD"  x:Name="rsd"  />
+            <ComboBoxItem Content="EUR"  x:Name="eur"/>
+        </ComboBox>
 
     </Grid>
 </Window>
