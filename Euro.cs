@@ -18,10 +18,10 @@ namespace Kalkulator_Izvrsitelj
         public void OsnovniSud()
         {
             string[] lines = System.IO.File.ReadAllLines("test.txt");
-            int valuta = Convert.ToInt32(lines[0]);
+            var valuta = lines[0];
 
             double os;
-            var dug = Convert.ToInt64(y.Dug.Text) * valuta;
+            var dug = Convert.ToDouble(y.Dug.Text) * Convert.ToDouble(valuta);
             if (dug > 0 && dug <= 10000)
             {
                 os = 1900 / 3D;
@@ -74,9 +74,11 @@ namespace Kalkulator_Izvrsitelj
 
         public void PrivredniSud()
         {
+            string[] lines = System.IO.File.ReadAllLines("test.txt");
+            var valuta = lines[0];
 
             double os;
-            var dug = Convert.ToInt64(y.Dug.Text);
+            var dug = Convert.ToInt64(y.Dug.Text) * Convert.ToDouble(valuta);
             if (dug > 0 && dug <= 10000)
             {
                 os = 1300 / 3D;

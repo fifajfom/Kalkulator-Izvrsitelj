@@ -108,7 +108,7 @@ namespace Kalkulator_Izvrsitelj
         //}
         public void Dug()
         {
-            if (System.Text.RegularExpressions.Regex.IsMatch(y.Dug.Text, "[^0-9]"))
+            if (System.Text.RegularExpressions.Regex.IsMatch(y.Dug.Text, "[^0-9,.]"))
             {
                 MessageBox.Show("Dozvoljen je unos samo brojeva");
                 y.Dug.Text = y.Dug.Text.Remove(y.Dug.Text.Length - 1);

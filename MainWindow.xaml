@@ -16,14 +16,16 @@
         <TextBox x:Name="sudskataksa" HorizontalAlignment="Left" IsEnabled="False" Height="23" Margin="343,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button  x:Name="izracunaj" Click="Izracunaj_Click"  Content="Button" HorizontalAlignment="Left" IsDefault="True"   Margin="298,218,0,0" VerticalAlignment="Top" Width="158" Height="72"/>
         <ComboBox HorizontalAlignment="Left"    Margin="183,59,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="Osnovni sud" IsSelected="True"  x:Name="Osnovni" Selected="Izracunaj_Click"/>
-            <ComboBoxItem Content="Privredni sud"  x:Name="Privredni" Selected="Izracunaj_Click"/>
+            <ComboBoxItem Content="Osnovni sud" Selected="Izracunaj_Click" IsSelected="True"  x:Name="Osnovni" />
+            <ComboBoxItem Content="Privredni sud" Selected="Izracunaj_Click" x:Name="Privredni"  />
         </ComboBox>
 
         <ComboBox x:Name="Cvaluta"  HorizontalAlignment="Left"    Margin="179,118,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Cvaluta_SelectionChanged">
-            <ComboBoxItem Content="RSD"  x:Name="rsd"  />
-            <ComboBoxItem Content="EUR"  x:Name="eur"/>
+            <ComboBoxItem x:Name="RSD" IsSelected="True"   >RSD</ComboBoxItem>
+            <ComboBoxItem x:Name="EUR" >EUR</ComboBoxItem>
+           
         </ComboBox>
+
 
     </Grid>
 </Window>

@@ -3,3 +3,17 @@ C:\Users\User\source\repos\GitIzvrsit\obj\Debug\MainWindow.g.cs
 C:\Users\User\source\repos\GitIzvrsit\obj\Debug\App.g.cs
 C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj_MarkupCompile.cache
 C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj_MarkupCompile.lref
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\Kalkulator-Izvrsitelj.exe.config
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\Kalkulator-Izvrsitelj.exe
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\Kalkulator-Izvrsitelj.pdb
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\source\repos\GitIzvrsit\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.g.resources
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator_Izvrsitelj.Properties.Resources.resources
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.csproj.CopyComplete
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.exe
+C:\Users\User\source\repos\GitIzvrsit\obj\Debug\Kalkulator-Izvrsitelj.pdb

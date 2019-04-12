@@ -20,7 +20,7 @@ namespace Kalkulator_Izvrsitelj
         {
             // osnovni sud
             double os;
-            var dug = Convert.ToInt64(y.Dug.Text);
+            var dug = Convert.ToDouble(y.Dug.Text);
             if (dug > 0 && dug <= 10000)
             {
                 os = 1900 / 3D;
@@ -85,27 +85,27 @@ namespace Kalkulator_Izvrsitelj
             if (dug > 10000 && dug <= 100000)
             {
 
-                os = (3900D + dug / 100D * 6D) / 3D / 3D;
+                os = ((3900D + dug / 100D * 6D) / 3D)/ 3D;
                 var rrr = Convert.ToString(System.Math.Round(os, 2));
                 y.sudskataksa.Text = rrr;
             }
             if (dug > 100000 && dug <= 1000000)
             {
 
-                os = (15600D + dug / 100D * 2D) / 3D / 3D;
+                os = ((15600D + dug / 100D * 2D) / 3D )/ 3D;
                 var rrr = Convert.ToString(System.Math.Round(os, 2));
                 y.sudskataksa.Text = rrr;
             }
             if (dug > 1000000 && dug <= 10000000)
             {
 
-                os = (54600D + dug / 100D * 1D) / 3D / 3D;
+                os = ((54600D + dug / 100D * 1D) / 3D)/ 3D;
                 var rrr = Convert.ToString(System.Math.Round(os, 2));
                 y.sudskataksa.Text = rrr;
             }
-            if (dug > 1000000)
+            if (dug > 10000000)
             {
-                os = (249600D + dug / 100D * 0.5D) / 3D / 3;
+                os = ((249600D + dug / 100D * 0.5D) / 3D )/ 3;
                 if (os >= 390000)
                 {
                     os = 43333;
